@@ -10,6 +10,42 @@ body{
 svg {
     padding: 0;
 }
+.logo{
+    width: 75px;
+    height: auto;
+    margin-right: 8px;
+}
+.name{
+    font-weight: 800;
+    
+}
+.portada{
+    background-image: url('../img/portada-horizaontal.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 80%;
+    flex-direction: row-reverse;
+}
+.portada-contenedor{
+    height: 25vh;
+}
+.portada-info {
+    text-align: center;
+}
+.portada-info h1{
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: #000;
+    color: #fff;
+    width: auto;
+    display: inline-block;
+    padding: .5rem;
+
+}
+.portada-info div{
+    width: 100%;
+
+}
 .bold {
     font-weight: 800;
 }
@@ -56,5 +92,10 @@ color: #DC3545;
 
 }
 .premios-borde {
-    box-shadow: 7px -1px 10px -6px rgba(0,0,0,0.15);
+    background-image: url('../img/pattern-horizontal.svg');
+    background-repeat: no-repeat;
+    background-position-y:100% ;
+    background-position-x: center;    
+    background-size: 90%;    
+    padding-bottom: 5rem;
 }

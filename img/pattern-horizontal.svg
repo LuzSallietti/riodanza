@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="569.055px" height="83px" viewBox="0 0 569.055 83" enable-background="new 0 0 569.055 83" xml:space="preserve">
+<g>
+	<rect x="204.6" y="0.97" fill-rule="evenodd" clip-rule="evenodd" fill="#DC9831" width="80.99" height="80.991"/>
+	<path fill="#CB5F34" d="M569.055,0.97v40.496l0,0c-22.365,0-40.494-18.128-40.494-40.496l0,0H569.055"/>
+	<path fill="#C33F4A" d="M569.055,41.465v40.496l0,0c-22.365,0-40.494-18.131-40.494-40.495v-0.001H569.055"/>
+	<path fill-rule="evenodd" clip-rule="evenodd" d="M205.009,81.961h-40.904V0.97h40.904c22.139,0,40.086,17.948,40.086,40.087v0.818
+		C245.095,64.014,227.148,81.961,205.009,81.961z"/>
+	<circle fill-rule="evenodd" clip-rule="evenodd" fill="#C33F4A" cx="305.836" cy="61.713" r="20.248"/>
+	<circle fill-rule="evenodd" clip-rule="evenodd" cx="305.836" cy="21.218" r="20.248"/>
+	<path fill-rule="evenodd" clip-rule="evenodd" fill="#9A999E" d="M407.074,81.961c-22.365,0-40.494-18.131-40.494-40.496
+		c0-22.364,18.129-40.496,40.494-40.496V81.961z"/>
+	<path fill-rule="evenodd" clip-rule="evenodd" fill="#CB5F34" d="M326.086,0.97c22.363,0,40.494,18.132,40.494,40.496
+		c0,22.365-18.131,40.496-40.494,40.496V0.97z"/>
+	<rect x="447.57" y="0.97" fill-rule="evenodd" clip-rule="evenodd" width="80.99" height="80.991"/>
+	<polygon fill-rule="evenodd" clip-rule="evenodd" points="123.609,0.97 164.104,0.97 164.104,41.465 	"/>
+	<polygon fill-rule="evenodd" clip-rule="evenodd" points="164.104,41.465 164.104,81.961 123.609,81.961 	"/>
+	<polygon fill-rule="evenodd" clip-rule="evenodd" points="447.57,0.97 447.57,81.961 407.074,41.465 	"/>
+	<g>
+		<path fill="#CB5F34" d="M108.008,41.465c0-13.749-11.146-24.893-24.894-24.893v49.787
+			C96.863,66.359,108.008,55.214,108.008,41.465z"/>
+		<path fill="#C33F4A" d="M2.125,0.97v80.991h80.99V66.359l0,0c-13.749,0-24.894-11.146-24.894-24.894s11.145-24.893,24.894-24.893
+			l0,0V0.97H2.125z"/>
+	</g>
+</g>
+</svg>

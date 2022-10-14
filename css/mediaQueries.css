@@ -5,6 +5,9 @@
     .objetivos{
         padding-right: 5rem !important;
         padding-left: 5rem !important;
+        background-image: url('../img/pattern.svg');
+        background-repeat: no-repeat;
+        background-position-x:100%;
     }
     .objetivos p {
         width: 66%;
@@ -25,11 +28,7 @@
         padding-right: 5rem !important;
         padding-left: 5rem !important;
     }
-    .premios {
-        display: flex;
-        align-items: flex-start; 
-        flex-wrap: wrap;     
-    }
+    
     .premios h3 {
         width: 100%;
     }
@@ -45,6 +44,11 @@
 @media screen and (min-width: 1024px) {
     .info {
         padding: 0 10rem;
+        background-image: url(../img/bailarin.png);
+        background-repeat: no-repeat;
+        background-position-x: -25%;
+        background-clip: padding-box;
+        background-size: 35%;
     }
     .objetivos{
         padding-right: 10rem !important;
@@ -74,4 +78,27 @@
         padding-left: 10rem !important;
     }
     
+}
+@media screen and (min-width:1440px) {
+    .info {
+        padding: 0 18rem;
+    }
+    .portada-contenedor{
+        height: 50vh;
+    }
+    .portada-info {
+        text-align: center;
+        margin-top: 5rem;
+    }
+    #inscripciones{
+        background-image: url('../img/pattern.svg');
+        background-repeat: no-repeat;
+        background-position-x:100%;
+    }
+    .aranceles-bg {
+        background-image: url('../img/pattern.svg');
+        background-repeat: no-repeat;
+        background-position-x:100%;
+    }
+     
 }

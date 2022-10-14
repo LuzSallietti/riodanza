@@ -16,51 +16,55 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-2">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                    <img src="/docs/5.2/assets/brand/bootstrap-logo.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
-                    Bootstrap
+                <a class="navbar-brand name" href="#inicio">
+                    <img src="./img/logo.jpg" alt="Logo" class="d-inline-block align-text-center logo">
+                    Río Danza
                   </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
+                    <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link disabled">Disabled</a>
+                    <a class="nav-link" href="#requisitos">Requisitos</a>
                   </li>
-                </ul>
-                <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#premios">Premios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#modalidades">Modalidades</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#aranceles">Aranceles</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#inscripciones">Inscripciones</a>
+                  </li>
+                  </ul>
+                  
               </div>
             </div>
           </nav>
     </header>
-    <!-- IMAGEN PPAL-->>
-    <section>
-        <h3>Primer Certamen de Danzas</h3>
-        <h1>Río Danza</h1>
-        <button class="btn btn-danger"> Inscripciones</button>
+    <!-- IMAGEN PPAL-->   
+    <section class="row portada px-4 py-5" id="inicio">
+      
+      <div class="col-12 col-md-6 portada-contenedor">
+
+      </div>
+      <div class="col-12 col-md-6 portada-info mb-4">
+        <h1>Primer Certamen de Danzas</h1>
+        <div class="mb-3">
+          <img class='img-fluid py-2' src="./img/logo.svg" alt="Río Danza">
+        </div>        
+        <a href="#inscripciones" class="btn btn-danger fw-semibold"> Inscribíte</a>
+      </div>
+        
     </section>
     <!-- FECHA Y HORARIOS-->
     <section class="my-5 row info">
@@ -104,7 +108,7 @@
         </p>     
     </section>
     <!--REQUISITOS-->
-    <section class="px-4 py-4 my-5 requisitos">
+    <section class="px-4 py-4 my-5 requisitos" id="requisitos">
         <h3 class="mb-3 bold">Requisitos</h3>
         <ol class="list-group list-group-numbered">
             <li class="list-group-item">Ficha de inscripción correcta y completa.</li>
@@ -131,10 +135,11 @@
     <span class="badge rounded-pill text-bg-danger">Creatividad Musical</span>
     <span class="badge rounded-pill text-bg-danger">Utilización del espacio</span>
     <p class="mt-3">La calificación será una <strong>nota del 1 al 10</strong>. Clasificándose en<strong>1°, 2° y 3° puestos</strong>.</p>
+    <p>Jurados a confirmar.</p>
     </section>
 
     <!--PREMIOS ESPECIALES-->
-    <div class="row d-flex align-items-stretch premios-contenedor">
+    <div class="row d-flex align-items-stretch premios-contenedor" id="premios">
       <section class="px-4 pt-4 mt-5 col-md-6 premios-borde">
           <h3 class="bold mb-3">Premios especiales</h3>
           <div class="mb-2">
@@ -160,10 +165,7 @@
           <div class="mb-2">
               <i class="fa-solid fa-award me-1 accent-font"></i>
               <span>Escuela o Academia que mayor número de coreografías presente</span>
-          </div>
-          <div class="p0">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#FBB13C" fill-opacity="1" d="M0,256L34.3,224C68.6,192,137,128,206,133.3C274.3,139,343,213,411,234.7C480,256,549,224,617,192C685.7,160,754,128,823,106.7C891.4,85,960,75,1029,106.7C1097.1,139,1166,213,1234,213.3C1302.9,213,1371,139,1406,101.3L1440,64L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path></svg>
-          </div>                
+          </div>                          
       </section>
     
     
@@ -181,9 +183,7 @@
               <i class="fa-sharp fa-solid fa-star me-1 accent-font"></i>
               <span>Mejor Coreógrafo/a</span>
           </div>
-          <div class="p-0">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#FBB13C" fill-opacity="1" d="M0,128L34.3,117.3C68.6,107,137,85,206,112C274.3,139,343,213,411,250.7C480,288,549,288,617,266.7C685.7,245,754,203,823,197.3C891.4,192,960,224,1029,245.3C1097.1,267,1166,277,1234,250.7C1302.9,224,1371,160,1406,128L1440,96L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path></svg>
-          </div>        
+  
       </section>
       
       <section class="px-4 pt-4 mt-5 col-md-6 premios-borde">
@@ -200,9 +200,6 @@
               <i class="fa-solid fa-medal me-1 accent-font"></i>
               <span>Medalla 3° puesto</span>
           </div>
-          <div class="p-0">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#FBB13C" fill-opacity="1" d="M0,32L34.3,69.3C68.6,107,137,181,206,186.7C274.3,192,343,128,411,138.7C480,149,549,235,617,266.7C685.7,299,754,277,823,234.7C891.4,192,960,128,1029,112C1097.1,96,1166,128,1234,149.3C1302.9,171,1371,181,1406,186.7L1440,192L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path></svg>
-          </div>        
       </section>
     
       <section class="px-4 pt-4 mt-5 col-md-6 premios-borde">
@@ -218,15 +215,12 @@
           <div class="mb-2">
               <i class="fa-solid fa-trophy me-1 accent-font"></i>
               <span>Trofeo 3° puesto</span>
-          </div>
-          <div class="p-0">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#FBB13C" fill-opacity="1" d="M0,128L34.3,154.7C68.6,181,137,235,206,250.7C274.3,267,343,245,411,234.7C480,224,549,224,617,208C685.7,192,754,160,823,138.7C891.4,117,960,107,1029,112C1097.1,117,1166,139,1234,149.3C1302.9,160,1371,160,1406,160L1440,160L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path></svg>
-          </div>       
+          </div>  
       </section>
     </div>
     
     <!--MODALIDADES-->
-    <section class="px-4 py-4 my-5 modalidades bg-dark text-white">
+    <section class="px-4 py-5 my-5 modalidades bg-dark text-white" id="modalidades">
         <h3 class="mb-4 bold">Modalidades</h3>
         <div class="row">
             <div class="card col-12 col-md-6 col-lg-4 mb-4 px-3 none-border bg-dark">
@@ -342,7 +336,7 @@
         </div>       
     </section>
     <!---ARANCELES-->
-    <section class="px-4 py-5 mt-5 bg-dark text-white orden">
+    <section class="px-4 py-5 mt-5 bg-dark text-white orden aranceles-bg" id="aranceles">
       <h3 class="mb-3 bold">Aranceles</h3>
       <div class="row justify-content-between">
         <div class="aranceles text-center col-6 col-md-4 col-lg-3 my-4">
@@ -364,12 +358,11 @@
       </div>        
   </section>
     <!--INSCRIPCIONES-->
-    <section class="px-4 py-5 bg-dark text-white orden">
+    <section class="px-4 py-5 bg-dark text-white orden" id="inscripciones">
       <h3 class="mb-3 bold">Inscripciones</h3>
       <p>Envía tus formularios de inscripción a <a class="a-dark" href="mailto:gabisognani77@gmail.com">gabisognani77@gmail.com</a></p>
       <p class="fs-6 bold">Fecha límite: 1 de noviembre de 2022</p>
-      <button class="btn btn-danger mb-3 fw-semibold d-block"><i class="fa-solid fa-file-arrow-down me-2"></i>Formulario de Coreografía</button>
-      <button class="btn btn-danger fw-semibold d-block"><i class="fa-solid fa-file-arrow-down me-2"></i>Formulario de Participante</button>
+      <a href="./docs/FICHA DE INSCRIPCIÓN.docxgit"class="btn btn-danger mb-3 fw-semibold d-inline"><i class="fa-solid fa-file-arrow-down me-2"></i>Formulario de Inscripción</a>      
     </section>
     <!--BUFFET-->
     <section class="px-4 py-5 bg-dark text-white buffet text-center">
