@@ -1,0 +1,60 @@
+html {
+    scroll-behavior: smooth;
+    font-family: 'Inter', sans-serif;
+}
+body{
+    font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
+   
+}
+svg {
+    padding: 0;
+}
+.bold {
+    font-weight: 800;
+}
+.accent-font{
+color: #DC3545;
+}
+.list-group-item{
+    border-bottom: 2px solid #FBB13C;
+}
+.badge{
+    --bs-badge-font-size: .9rem;
+    margin-bottom: 0.25rem;
+}
+.aranceles {
+    border-bottom: 2px solid #FBB13C;
+    padding: 1rem .5rem 0rem .5rem;
+    border-radius: 2rem;
+    line-height: 1rem;
+}
+.card {
+    --bs-card-border-color: #FBB13C;
+    margin-bottom: .5rem;
+    border-width: 2px;
+
+}
+.card-body h6 {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+.a-dark{
+    --bs-link-color: #D1DCD7 !important;
+}
+.buffet{
+    border-top: 2px solid #FBB13C
+}
+.card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.none-border{
+   border: none;
+   box-shadow: 7px 9px 13px -6px rgba(255,255,255,0.1);
+
+}
+.premios-borde {
+    box-shadow: 7px -1px 10px -6px rgba(0,0,0,0.15);
+}
